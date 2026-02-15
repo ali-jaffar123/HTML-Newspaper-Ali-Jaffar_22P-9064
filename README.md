@@ -2,9 +2,9 @@
 
 ## Student Information
 
-- **Name:** [Your Full Name]
-- **Roll Number:** [Your Roll Number]
-- **Section:** [Your Section]
+- **Name:** [Ali Jaffar]
+- **Roll Number:** [22P-9064]
+- **Section:** [BCS-8A]
 
 ---
 
