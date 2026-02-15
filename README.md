@@ -1,35 +1,23 @@
-# HTML Newspaper Recreation - The Voice of Time
+# HTML Newspaper Recreation
 
 ## Student Information
-- Name: Ali Jaffar
-- Roll Number: 22P-9064
-- Course: CS-4070 Web Technologies
-
----
+**Name:** Ali Jaffar
+**Roll Number:** 22P-9064
+**Section:** BCS-8A
 
 ## Original Newspaper
-- Original Source: Urdu Newspaper (Pre-1990)
-- Date: August 18, 1988
-- Event: Plane crash of President Zia-ul-Haq
+**Name:** Nawa-i-Waqt (Daily Nawa-i-Waqt / روزنامہ نوائے وقت)
+**Date:** Thursday, August 18, 1988
+**Source:** Historical Digital Archives
 
----
-
-## Project Overview
-This project recreates a historical pre-1990 Urdu newspaper front page using HTML5. The layout follows a traditional three-column newspaper structure using semantic HTML elements and table-based alignment.
-
----
+## Project Description
+This project is a reconstruction of the front page of the Nawa-i-Waqt newspaper from 1988, which reported the tragic plane crash of President Zia-ul-Haq. The recreation focuses on translating the original Urdu content into English while maintaining a high-density, broadsheet-style layout using standard HTML5 and inline CSS.
 
 ## Features Implemented
-- HTML5 document structure
-- Semantic tags (header, nav, main, section, article, footer)
-- 3-column layout using table
-- Multiple images with alt attributes
-- Heading hierarchy (h1-h4)
-- Lists for structured information
-- Inline styling only
-- Proper indentation and comments
-
----
+* **3-Column Table Layout:** Used a rigid table structure to define the 30%-40%-30% column split typical of 1980s journalism.
+* **Semantic HTML5:** Implemented `<header>`, `<main>`, `<article>`, `<section>`, and `<footer>` tags for better document structure.
+* **Inline CSS Styling:** Applied all visual formatting (borders, spacing, and font styles) via the `style` attribute to satisfy technical constraints.
+* **Visual Information Density:** Replicated the "busy" look of the original paper with multiple articles, photos, and a localized bank advertisement.
 
 ## Challenges Faced
-The main challenge was recreating a traditional newspaper layout without using external CSS. Careful use of tables, inline styling, and semantic structure helped achieve the required layout similarity.
+The main challenge was mimicking the multi-column newspaper grid without using external CSS or Flexbox. I solved this by nesting articles within table cells and using `text-align: justify` to create the clean block-text appearance of a printed paper.
