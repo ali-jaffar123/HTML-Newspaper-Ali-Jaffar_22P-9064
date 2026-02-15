@@ -1,18 +1,43 @@
-# HTML Newspaper Recreation
+# HTML Newspaper Recreation - The Voice of Time
+
+## Student Information
+
+- **Name:** [Your Full Name]
+- **Roll Number:** [Your Roll Number]
+- **Section:** [Your Section]
+
+---
 
 ## Original Newspaper
-**Name:** Daily Nawa-i-Waqt (روزنامہ نوائے وقت)
-**Date:** August 18, 1988
-**Source:** Provided scan of the Multan edition covering the presidential crash.
+
+- **Name:** Daily Nawa-i-Waqt (Translated Recreation)
+- **Date:** August 18, 1988
+- **Source:** Archived historical newspaper scan (Pre-1990 Urdu newspaper front page)
+
+---
 
 ## Project Description
-This project is a technical recreation of the front page of "Nawa-i-Waqt" using only HTML5. The layout focuses on replicating the dense, columnar broadsheet style of late-80s Pakistani print journalism, specifically highlighting the air tragedy involving President Zia-ul-Haq.
+
+This project recreates a pre-1990 Urdu newspaper front page using only HTML5. 
+The layout is based on a historical newspaper reporting the tragic plane crash of President Zia-ul-Haq in 1988. The design mimics a traditional three-column newspaper structure using semantic HTML tags and table-based layout techniques.
+
+---
 
 ## Features Implemented
-Semantic Layout: Utilized `<header>`, `<nav>`, `<main>`, `<article>`, and `<footer>` tags for document structure[cite: 40].
-3-Column Table Structure: Implemented a fixed-width `<table>` to mirror the original newspaper's article alignment[cite: 41, 59].
-Headline Hierarchy: Used `<h1>` through `<h4>` to establish clear content priority[cite: 43].
-Inline CSS: Managed borders, padding, and text alignment through the `style` attribute[cite: 49].
+
+- Proper HTML5 document structure
+- Semantic tags: `<header>`, `<nav>`, `<main>`, `<section>`, `<article>`, `<footer>`
+- 3-column newspaper layout using `<table>`
+- Multiple images with proper `alt` attributes
+- Heading hierarchy (`h1`, `h2`, `h3`, `h4`)
+- Lists (`<ul>`) for structured content
+- Inline styling for formatting
+- Proper indentation and HTML comments
+- Visual similarity to original newspaper layout
+
+---
 
 ## Challenges Faced
-The primary challenge was aligning the President's portrait within the center column of the table while maintaining readability. I solved this by using a `div` wrapper with `text-align: center` inside the table cell to ensure the image did not disrupt the flow of the adjacent news columns.
+
+One of the main challenges was balancing the three-column layout while maintaining readability. 
+Another challenge was recreating a traditional newspaper appearance using only HTML without external CSS. This was solved by carefully using tables and inline styling for borders, alignment, and spacing.
